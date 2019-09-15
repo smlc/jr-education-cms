@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default ({ children }) => (
   <div class="columns is-fullheight">
@@ -13,17 +14,17 @@ export default ({ children }) => (
         <p class="menu-label">Menu</p>
         <ul class="menu-list">
           <li>
-            <a>Cour et exercices</a>
+            <Link to="/cours">Cour et exercices</Link>
           </li>
           <li>
             <a>Numérique et algorithmique</a>
           </li>
           <li>
-            <a>Bret et Bac</a>
+            <a>Brevet et Bac</a>
           </li>
         </ul>
       </aside>
     </div>
-    <div class="column has-background-success">{children}</div>
+    <div class="column">{children}</div>
   </div>
 )
