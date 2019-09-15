@@ -1,10 +1,10 @@
 import React from "react"
 
 export default ({ children }) => (
-  <div>
+  <div class="columns is-fullheight">
     <div
       style={{ maxWidth: 400 }}
-      class="column is-fullheight has-background-dark"
+      class="column is-two-fifths has-background-dark is-sidebar-menu"
     >
       <aside
         style={{ margin: `8rem 1rem 10rem`, maxWidth: 650, padding: `0 1rem` }}
@@ -24,6 +24,6 @@ export default ({ children }) => (
         </ul>
       </aside>
     </div>
-    {children}
+    <div class="column has-background-success">{children}</div>
   </div>
 )
