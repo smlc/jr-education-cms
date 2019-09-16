@@ -5,6 +5,5 @@
  */
 
 module.exports = {
-  plugins: [`gatsby-plugin-sass`],
-  plugins: [`gatsby-plugin-netlify-cms`]
+  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-netlify-cms`]
 }
