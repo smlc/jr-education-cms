@@ -1,6 +1,7 @@
 import React from "react"
 import "../mystyles.scss"
 import Layout from "../components/Layout"
+import { Link } from "gatsby"
 
 export default () => (
   <Layout>
@@ -9,7 +10,7 @@ export default () => (
         <div class="box">
           <div class="content">
             <ul>
-              <li>6eme</li>
+              <li> <Link to="/sixieme">6eme</Link></li>
               <li>5eme</li>
               <li>4eme</li>
               <li>3eme</li>
