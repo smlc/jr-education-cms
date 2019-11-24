@@ -8,10 +8,11 @@ public_folder: assets
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: "blog/cour"
     create: true
+    identifier_field: theme
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { name: theme, label: "Theme du cour", widget: string }
+      - { name: methodes, label: "Methodes", widget: list }
+      - { name: corrigerExercices, label: "Exercices corrige", widget: list }
+      - { name: activites, label: "Activités", widget: list }

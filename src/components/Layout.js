@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-export default ({ children }) => (
+const Layout = ({ children }) => (
   <div class="columns is-fullheight">
     <div
       style={{ maxWidth: 400 }}
@@ -28,3 +28,4 @@ export default ({ children }) => (
     <div class="column">{children}</div>
   </div>
 )
+export default Layout;

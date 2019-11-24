@@ -1,0 +1,15 @@
+---
+theme: Math
+methodes:
+  - Method
+  - methofes
+  - meoorers
+corrigerExercices:
+  - exo1
+  - exo2
+  - exo3
+activites:
+  - actvi
+  - activ2
+  - actt
+---
