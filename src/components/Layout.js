@@ -17,10 +17,10 @@ const Layout = ({ children }) => (
             <Link to="/cours">Cour et exercices</Link>
           </li>
           <li>
-            <a>Numérique et algorithmique</a>
+            <a href="#top">Numérique et algorithmique</a>
           </li>
           <li>
-            <a>Brevet et Bac</a>
+            <a href="#top">Brevet et Bac</a>
           </li>
         </ul>
       </aside>

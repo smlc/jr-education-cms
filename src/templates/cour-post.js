@@ -20,9 +20,24 @@ export const pageQuery = graphql`
       html
       frontmatter {
         theme
-        methodes
-        corrigerExercices
-        activites
+        methodes {
+          methode {
+            lien
+            nom
+          }
+        }
+        activitees {
+          activitee {
+            lien
+            nom
+          }
+        }
+        corrigerexercices {
+          corrigerexercice {
+            lien
+            nom
+          }
+        }
       }
     }
   }
