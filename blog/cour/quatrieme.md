@@ -14,4 +14,3 @@ corrigerexercices:
       lien: 'http://www.youtube.com'
       nom: Un exo corrigé
 ---
-

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-export default ({ children }) => (
+const Layout = ({ children }) => (
   <div class="columns is-fullheight">
     <div
       style={{ maxWidth: 400 }}
@@ -17,10 +17,10 @@ export default ({ children }) => (
             <Link to="/cours">Cour et exercices</Link>
           </li>
           <li>
-            <a>Numérique et algorithmique</a>
+            <a href="#top">Numérique et algorithmique</a>
           </li>
           <li>
-            <a>Brevet et Bac</a>
+            <a href="#top">Brevet et Bac</a>
           </li>
         </ul>
       </aside>
@@ -28,3 +28,4 @@ export default ({ children }) => (
     <div class="column">{children}</div>
   </div>
 )
+export default Layout;

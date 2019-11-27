@@ -19,4 +19,3 @@ corrigerexercices:
         https://www.mathematiques-web.fr/fractions-exercices-de-maths-corriges-en-sixieme-6eme-1646
       nom: Corrigé exo sixieme
 ---
-

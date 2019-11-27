@@ -8,10 +8,42 @@ public_folder: assets
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: "blog/cour"
     create: true
+    identifier_field: classe
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: date }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - label: "Classe concerné"
+        name: "classe"
+        widget: "select"
+        options: ["sixieme", "quatrieme", "cinquieme", "troisieme", "seconde", "premire", "terminale"]
+      - { name: theme, label: "Theme du cour", widget: string }
+      - label : Activitees
+        name: activitees
+        widget: list
+        fields:
+          - label: activitee
+            name: activitee
+            widget: object
+            fields:
+              - { name: nom, label: "Nom de l'activée à afficher", widget: string }
+              - { name: lien, label: "Lien vers le document ou la vidéo", widget: string }
+      - label : Methodes
+        name: methodes
+        widget: list
+        fields:
+          - label: methode
+            name: methode
+            widget: object
+            fields:
+              - { name: nom, label: "Nom le la méthode à afficher", widget: string }
+              - { name: lien, label: "Lien vers le document ou la vidéo", widget: string }
+      - label : Corrigerexercices
+        name: corrigerexercices
+        widget: list
+        fields:
+          - label: corrigerexercice
+            name: corrigerexercice
+            widget: object
+            fields:
+              - { name: nom, label: "Nom du corrigé de l'exercice à afficher", widget: string }
+              - { name: lien, label: "Lien vers le document ou la vidéo", widget: string }

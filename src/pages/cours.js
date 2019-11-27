@@ -8,12 +8,13 @@ export default () => (
     <div class="columns">
       <div class="column is-half">
         <div class="box">
+          <h3 class="title is-3 has-text-middle">Collège</h3>
           <div class="content">
             <ul>
-              <li> <Link to="/sixieme">6eme</Link></li>
-              <li>5eme</li>
-              <li>4eme</li>
-              <li>3eme</li>
+              <li><Link to="/sixieme">6eme</Link></li>
+              <li><Link to="/cinquieme">5eme</Link></li>
+              <li><Link to="/quatrieme">4eme</Link></li>
+              <li><Link to="/troisieme">3eme</Link></li>
             </ul>
           </div>
         </div>
