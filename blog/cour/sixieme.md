@@ -8,7 +8,7 @@ activitees:
 methodes:
   - methode:
       lien: 'https://www.maths-et-tiques.fr'
-      nom: Super cour de math
+      nom: Super cours de math
   - methode:
       lien: >-
         https://www.maths-et-tiques.fr/index.php/cours-maths/cours-de-maths-niveau-sixieme
