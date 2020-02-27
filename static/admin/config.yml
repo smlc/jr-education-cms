@@ -11,36 +11,51 @@ collections:
     create: true
     identifier_field: classe
     fields:
-      - label: "Classe concerné"
+      - label: "classe concernée"
         name: "classe"
         widget: "select"
-        options: ["sixieme", "quatrieme", "cinquieme", "troisieme", "seconde", "premire", "terminale"]
-      - { name: theme, label: "Theme du cour", widget: string }
-      - label : Activitees
+        options: ["Sixième", "Quatrième", "Cinquième", "Troisième", "Seconde", "Première", "Terminale"]
+      - label: "Theme du cours" 
+        name: theme, 
+        widget: "select" 
+        options: ["Nombres et calculs", "Organisation et gestion de données, fonctions", "Grandeurs et mesures", "Espace et géométrie", "Algorithmique et programmation", "Algèbre ", "Analyse", "Géométrie","Probabilités et statistiques" ]
+      - label : Activites
         name: activitees
         widget: list
         fields:
-          - label: activitee
+          - label: "compétences évaluées"
+            name: competencesevaluees
+            widget: "select"
+            multiple: true
+            options: ["Chercher", "Modéliser", "Représenter", "Raisonner", "Calculer", "Communiquer"]
+            default: ["chercher"]
+          - label: "activitee"
             name: activitee
             widget: object
             fields:
               - { name: nom, label: "Nom de l'activée à afficher", widget: string }
               - { name: lien, label: "Lien vers le document ou la vidéo", widget: string }
-      - label : Methodes
+      - label : "methodes"
         name: methodes
         widget: list
         fields:
-          - label: methode
+          - label: "cour et methode"
             name: methode
             widget: object
             fields:
               - { name: nom, label: "Nom le la méthode à afficher", widget: string }
               - { name: lien, label: "Lien vers le document ou la vidéo", widget: string }
-      - label : Corrigerexercices
+      - label : "corrigés exercicés"
         name: corrigerexercices
         widget: list
         fields:
-          - label: corrigerexercice
+          - label: "compétences évaluées"
+            name: competencesevaluees
+            widget: "select"
+            multiple: true
+            options: ["Chercher", "Modéliser", "Représenter", "Raisonner", "Calculer", "Communiquer"]
+            default: ["chercher"]
+          - label: "corrigé exercice"
             name: corrigerexercice
             widget: object
             fields:
