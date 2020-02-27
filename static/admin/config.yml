@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: smlc/jr-education-cms
+  name: git-gateway
 
 media_folder: static/assets
 public_folder: assets
@@ -12,12 +11,12 @@ collections:
     create: true
     identifier_field: classe
     fields:
-      - label: "Classe concerné"
+      - label: "Classe concernée"
         name: "classe"
         widget: "select"
-        options: ["sixieme", "quatrieme", "cinquieme", "troisieme", "seconde", "premire", "terminale"]
-      - { name: theme, label: "Theme du cour", widget: string }
-      - label : Activitees
+        options: ["Sixieme", "Quatrieme", "Cinquieme", "Troisieme", "Seconde", "Première", "Terminale"]
+      - { name: theme, label: "Theme du cours", widget: string }
+      - label : Activites
         name: activitees
         widget: list
         fields:
@@ -25,14 +24,14 @@ collections:
             name: activitee
             widget: object
             fields:
-              - { name: nom, label: "Nom de l'activée à afficher", widget: string }
+              - { name: nom, label: "Nom de l'activé à afficher", widget: string }
               - { name: lien, label: "Lien vers le document ou la vidéo", widget: string }
       - label : Methodes
         name: methodes
         widget: list
         fields:
           - label: methode
-            name: methode
+            name: cour et methode
             widget: object
             fields:
               - { name: nom, label: "Nom le la méthode à afficher", widget: string }
@@ -42,7 +41,7 @@ collections:
         widget: list
         fields:
           - label: corrigerexercice
-            name: corrigerexercice
+            name: corrigés exercicés
             widget: object
             fields:
               - { name: nom, label: "Nom du corrigé de l'exercice à afficher", widget: string }
