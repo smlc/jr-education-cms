@@ -1,5 +1,4 @@
 import React from "react"
-import "../mystyles.scss"
 import Layout from "../components/Layout"
 
 export default () => (
