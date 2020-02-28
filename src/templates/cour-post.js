@@ -1,9 +1,10 @@
-import React from "react"
-import Layout from "../components/Layout"
-import Cour from "../components/cour"
+import React from 'react'
+import Layout from '../components/Layout'
+import Cour from '../components/cour'
 import { graphql } from 'gatsby'
 
 export default ({ data }) => {
+  console.log(data)
   const  courData  = data.markdownRemark.frontmatter;
   return (
     <Layout>
