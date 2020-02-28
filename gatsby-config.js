@@ -9,7 +9,6 @@
 
 module.exports = {
   plugins: [
-    `gatsby-plugin-sass`,
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
