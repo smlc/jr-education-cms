@@ -4,7 +4,7 @@ theme: Math
 activitees:
   - competencesevaluees:
       - Calculer
-  - activitee:
+    activitee:
       lien: 'http://www.youtube.com'
       nom: Activité quatrieme
 methodes:
@@ -14,7 +14,7 @@ methodes:
 corrigerexercices:
   - competencesevaluees:
       - Calculer
-  - corrigerexercice:
+    corrigerexercice:
       lien: 'http://www.youtube.com'
       nom: Un exo corrigé
 ---
