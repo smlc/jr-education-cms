@@ -2,7 +2,7 @@
 classe: quatrieme
 theme: Math
 activitees:
-  - competencesevaluees:
+  - competencesevalueesactivite:
       - Calculer
     activitee:
       lien: 'http://www.youtube.com'
@@ -12,7 +12,7 @@ methodes:
       lien: 'http://www.google.fr'
       nom: Methode de travail
 corrigerexercices:
-  - competencesevaluees:
+  - competencesevalueesexo:
       - Calculer
     corrigerexercice:
       lien: 'http://www.youtube.com'

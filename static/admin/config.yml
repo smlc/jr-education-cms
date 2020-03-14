@@ -24,7 +24,7 @@ collections:
         widget: list
         fields:
           - label: "compétences évaluées"
-            name: competencesevaluees
+            name: competencesevalueesactivite
             widget: "select"
             multiple: true
             options: ["Chercher", "Modéliser", "Représenter", "Raisonner", "Calculer", "Communiquer"]
@@ -50,7 +50,7 @@ collections:
         widget: list
         fields:
           - label: "compétences évaluées"
-            name: competencesevaluees
+            name: competencesevalueesexo
             widget: "select"
             multiple: true
             options: ["Chercher", "Modéliser", "Représenter", "Raisonner", "Calculer", "Communiquer"]

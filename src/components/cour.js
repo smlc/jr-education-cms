@@ -28,7 +28,7 @@ const Cour = ({ cour }) => (
     <h4 class="text-left text-gray-700 text-xl font-bold mt-5 ml-4 mb-3">
       Activitées
       {cour.activitees.map(element =>
-        element.competencesevaluees.map(el => (
+        element.competencesevalueesactivite.map(el => (
           <div class="inline bg-transparent text-sm text-blue-700 font-semibold border border-blue-300 ml-2 px-3 py-1 rounded-full">
             {el}
           </div>
@@ -50,7 +50,7 @@ const Cour = ({ cour }) => (
     <h4 class="text-left text-gray-700 text-xl font-bold mt-5 ml-4 mb-3">
       Corrigés exercices
       {cour.corrigerexercices.map(element =>
-        element.competencesevaluees.map(el => (
+        element.competencesevalueesexo.map(el => (
           <div class="inline bg-transparent text-sm text-blue-700 font-semibold border border-blue-300 ml-2 px-3 py-1 rounded-full">
             {el}
           </div>
