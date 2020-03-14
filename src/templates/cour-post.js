@@ -28,12 +28,14 @@ export const pageQuery = graphql`
           }
         }
         activitees {
+          competencesevalueesactivite
           activitee {
             lien
             nom
           }
         }
         corrigerexercices {
+          competencesevalueesexo
           corrigerexercice {
             lien
             nom

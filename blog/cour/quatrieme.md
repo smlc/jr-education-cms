@@ -2,7 +2,9 @@
 classe: quatrieme
 theme: Math
 activitees:
-  - activitee:
+  - competencesevalueesactivite:
+      - Calculer
+    activitee:
       lien: 'http://www.youtube.com'
       nom: Activité quatrieme
 methodes:
@@ -10,7 +12,9 @@ methodes:
       lien: 'http://www.google.fr'
       nom: Methode de travail
 corrigerexercices:
-  - corrigerexercice:
+  - competencesevalueesexo:
+      - Calculer
+    corrigerexercice:
       lien: 'http://www.youtube.com'
       nom: Un exo corrigé
 ---

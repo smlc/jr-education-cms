@@ -16,7 +16,7 @@ collections:
         widget: "select"
         options: ["Sixième", "Quatrième", "Cinquième", "Troisième", "Seconde", "Première", "Terminale"]
       - label: "Theme du cours" 
-        name: theme, 
+        name: theme 
         widget: "select" 
         options: ["Nombres et calculs", "Organisation et gestion de données, fonctions", "Grandeurs et mesures", "Espace et géométrie", "Algorithmique et programmation", "Algèbre ", "Analyse", "Géométrie","Probabilités et statistiques" ]
       - label : Activites
@@ -24,11 +24,11 @@ collections:
         widget: list
         fields:
           - label: "compétences évaluées"
-            name: competencesevaluees
+            name: competencesevalueesactivite
             widget: "select"
             multiple: true
             options: ["Chercher", "Modéliser", "Représenter", "Raisonner", "Calculer", "Communiquer"]
-            default: ["chercher"]
+            default: ["Chercher"]
           - label: "activitee"
             name: activitee
             widget: object
@@ -50,11 +50,11 @@ collections:
         widget: list
         fields:
           - label: "compétences évaluées"
-            name: competencesevaluees
+            name: competencesevalueesexo
             widget: "select"
             multiple: true
             options: ["Chercher", "Modéliser", "Représenter", "Raisonner", "Calculer", "Communiquer"]
-            default: ["chercher"]
+            default: ["Chercher"]
           - label: "corrigé exercice"
             name: corrigerexercice
             widget: object
