@@ -11,11 +11,11 @@ activitees:
 methodes:
   - methode:
       lien: 'https://www.maths-et-tiques.fr'
-      nom: Super cours de math
+      nom: Super cours de mathématiques
   - methode:
       lien: >-
         https://www.maths-et-tiques.fr/index.php/cours-maths/cours-de-maths-niveau-sixieme
-      nom: Programme de sixieme
+      nom: Programme de sixième
 corrigerexercices:
   - corrigerexercice:
       lien: >-

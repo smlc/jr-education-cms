@@ -7,7 +7,7 @@ export default () => (
     <div class="h-full flex flex-col bg-gray-400 ">
       <div class="text-2xl bg-gray-400 pl-6 py-3">Les Cours</div>
       <div class="flex-1 flex text-gray-700 text-left bg-gray-400 pt-2 mx-6 border-t-2">
-        <div class="flex-1 mt-6">College</div>
+        <div class="flex-1 mt-6">Collège</div>
         <div class="flex-1 flex-wrap mt-6">
           <Link
             to="/sixieme"
@@ -54,7 +54,7 @@ export default () => (
             to="#"
             class="inline-block bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white w-56 py-2 px-4 mx-4 mt-4 border border-blue-500 hover:border-transparent rounded"
           >
-            Terminal
+            Terminale
           </Link>
         </div>
       </div>
