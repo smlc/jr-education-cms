@@ -13,17 +13,18 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
-    "gatsby": "^2.15.14",
-    "gatsby-plugin-netlify-cms": "^4.1.16",
-    "gatsby-plugin-postcss": "^2.1.20",
-    "gatsby-source-filesystem": "^2.1.22",
-    "gatsby-transformer-remark": "^2.6.24",
-    "netlify-cms-app": "^2.9.7",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "gatsby": "^2.20.2",
+    "gatsby-cli": "^2.11.0",
+    "gatsby-plugin-netlify-cms": "^4.2.0",
+    "gatsby-plugin-postcss": "^2.2.0",
+    "gatsby-source-filesystem": "^2.2.1",
+    "gatsby-transformer-remark": "^2.7.0",
+    "netlify-cms-app": "^2.11.32",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2",
+    "prettier": "^1.19.1",
     "tailwindcss": "^1.2.0"
   },
   "repository": {
